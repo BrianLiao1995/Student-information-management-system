@@ -1,0 +1,311 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+option {
+    font-size: 12px;
+    color: #000;
+}
+
+.clearfloat {
+    height: 0;
+    font-size: 1px;
+    clear: both;
+    line-height: 0;
+}
+
+select {
+    font-size: 12px;
+    color: #000;
+}
+
+.clear {
+    margin: 0px;
+    padding: 0px;
+    clear: both
+}
+
+input {
+    font-size: 12px;
+    color: #000;
+}
+
+html, body, div, dl, dt, dd, ul, h1, h2, h3, pre, form, label, fieldset, input, p, blockquote, th, td {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑", "宋体"
+}
+
+fieldset, img {
+    border: 0
+}
+
+code, em, var, i {
+    font-style: normal;
+}
+
+ul {
+    list-style: none
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #eee;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    background: #000 url(../images/login/bg.jpg) no-repeat center 0;
+}
+
+.top_box {
+    height: 80px;
+}
+
+.logo {
+    font-size: 20px;
+    float: left;
+    padding: 25px 0 0;
+}
+
+.top_right {
+    width: 200px;
+    float: right;
+    line-height: 22px;
+    padding: 18px 0 0;
+}
+
+.top_right b {
+    font-size: 16px;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    background: url(../images/login/bg2.jpg) no-repeat center 0
+}
+
+.menu {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #0f1427;
+    border-radius: 8px 8px 0 0;
+    color: #414c77;
+    border: 1px solid #161b34;
+    border-bottom: none;
+}
+
+.menu a {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 25px;
+}
+
+.contain {
+    padding: 20px 0;
+    float: left;
+    width: 1000px;
+}
+
+.side {
+    width: 200px;
+    float: left;
+}
+
+.main {
+    width: 780px;
+    float: right;
+}
+
+.side_t {
+    padding: 0 0 10px;
+    background: #32384e;
+    margin: 0 0 10px;
+    border-radius: 8px;
+}
+
+.side_t h3, .courses h3, .news h3, .photos h3 {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #40465d;
+    position: relative;
+    background: #1a213a;
+    text-indent: 1em;
+    border-radius: 8px 8px 0 0;
+}
+
+.side_t h3 a, .news h3 a {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    font-size: 10px;
+}
+
+.side_t h3 a:hover, .news h3 a:hover {
+    text-decoration: none;
+}
+
+.side_t ul, .news ul {
+    padding: 10px 0 0;
+}
+
+.side_t li, .news li {
+    list-style: disc inside;
+    margin-left: 15px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.side_t p, .courses p {
+    padding: 10px;
+    line-height: 22px;
+    color: #aaa;
+}
+
+.courses {
+    width: 450px;
+    height: 200px;
+    float: left;
+    padding: 0 0 20px;
+    margin: 20px 0 10px;
+    border-radius: 8px;
+    background: #32384e;
+}
+
+.courses p img {
+    width: 160px;
+    height: 160px;
+    float: left;
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+.news {
+    width: 310px;
+    height: 200px;
+    float: right;
+    padding: 0 0 20px;
+    margin: 20px 0 10px;
+    border-radius: 8px;
+    background: #32384e;
+}
+
+.photos {
+    float: left;
+    width: 780px;
+    border-radius: 8px;
+    background: #32384e;
+}
+
+/*横向滚动样式*/
+.banner {
+    width: 780px;
+    overflow: hidden;
+    margin: 0 0 10px -2px;
+}
+
+.carousel {
+    width: 780px;
+    position: relative;
+    margin: 10px 0 10px -2px;
+}
+
+.carousel .prev b, .carousel .next b {
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+    margin: 55px 0 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.carousel .prev {
+    position: absolute;
+    left: 5px;
+    z-index: 9999;
+}
+
+.carousel .next {
+    position: absolute;
+    z-index: 9999;
+    right: 2px;
+}
+
+.carousel .prev b {
+    background: url(../images/Arrows3.png) no-repeat 0 0;
+    float: left;
+}
+
+.carousel .next b {
+    background: url(../images/Arrows3.png) no-repeat 100% 0;
+    float: right;
+}
+
+.jCarouselLite {
+    float: left;
+    margin-left: 2px;
+    /*必要元素*/
+}
+
+.jCarouselLite li {
+    width: 260px;
+    text-align: center;
+    float: left;
+}
+
+.jCarouselLite li img {
+    border: solid 1px #ddd;
+    width: 250px;
+    height: 140px;
+}
+
+.jCarouselLite li p {
+    color: #bed218;
+    font-size: 18px;
+    font-weight: bold;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.jCarouselLite li a {
+    color: #666;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.jCarouselLite li a:hover {
+    color: #444;
+}
+
+.footer {
+    color: #32384e;
+    padding: 20px;
+    text-align: center;
+    width: 960px;
+}
+
+.button_style {
+    font-size: 12px;
+    color: #000;
+    padding: 5px;
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<structure>
+    <campus name="大学城校区">
+        <school name="工商管理学院">
+            <majors>
+                <major name="房地产开发与管理">
+                    <classes>
+                        <class>房地产开发与管理一班</class>
+                        <class>房地产开发与管理二班</class>
+                    </classes>
+                </major>
+                <major name="工程造价">
+                    <classes>
+                        <class>工程造价一班</class>
+                        <class>工程造价二班</class>
+                    </classes>
+                </major>
+                <major name="物业管理">
+                    <classes>
+                        <class>物业管理一班</class>
+                        <class>物业管理二班</class>
+                    </classes>
+                </major>
+                <major name="工商管理">
+                    <classes>
+                        <class>工商管理一班</class>
+                        <class>工商管理二班</class>
+                    </classes>
+                </major>
+                <major name="人力资源管理">
+                    <classes>
+                        <class>人力资源管理一班</class>
+                        <class>人力资源管理二班</class>
+                    </classes>
+                </major>
+                <major name="电子商务">
+                    <classes>
+                        <class>电子商务一班</class>
+                        <class>电子商务二班</class>
+                    </classes>
+                </major>
+                <major name="物流管理">
+                    <classes>
+                        <class>物流管理一班</class>
+                        <class>物流管理二班</class>
+                    </classes>
+                </major>
+            </majors>
+        </school>
+
+        <school name="人文学院">
+            <majors>
+                <major name="教师教育方向">
+                    <classes>
+                        <class>教师教育方向一班</class>
+                        <class>教师教育方向二班</class>
+                    </classes>
+                </major>
+                <major name="文学方向">
+                    <classes>
+                        <class>文学方向一班</class>
+                        <class>文学方向二班</class>
+                    </classes>
+                </major>
+                <major name="应用语言学方向">
+                    <classes>
+                        <class>应用语言学方向一班</class>
+                        <class>应用语言学方向二班</class>
+                    </classes>
+                </major>
+                <major name="戏剧与影视学方向">
+                    <classes>
+                        <class>戏剧与影视学方向一班</class>
+                        <class>戏剧与影视学方向二班</class>
+                    </classes>
+                </major>
+                <major name="创作与出版编辑方向">
+                    <classes>
+                        <class>文学方向一班</class>
+                        <class>文学方向二班</class>
+                    </classes>
+                </major>
+            </majors>
+        </school>
+
+        <school name="数学与信息科学学院">
+            <majors>
+                <major name="信息安全专业">
+                    <classes>
+                        <class>信安一班</class>
+                        <class>信安二班</class>
+
+                    </classes>
+                </major>
+                <major name="信息与计算科学专业">
+                    <classes>
+                        <class>信计一班</class>
+                        <class>信计二班</class>
+                    </classes>
+                </major>
+            </majors>
+        </school>
+    </campus>
+
+    <campus name="桂花岗校区">
+        <school name="旅游学院（中法旅游学院）">
+            <majors>
+                <major name="旅游管理专业(中法项目)">
+                    <classes>
+                        <class>旅游管理专业(中法项目)一班</class>
+                        <class>旅游管理专业(中法项目)二班</class>
+                    </classes>
+                </major>
+                <major name="旅游管理专业（国内项目）">
+                    <classes>
+                        <class>旅游管理专业(国内项目)一班</class>
+                        <class>旅游管理专业(国内项目)二班</class>
+                    </classes>
+                </major>
+                <major name="会展经济与管理专业">
+                    <classes>
+                        <class>会展经济与管理专业一班</class>
+                        <class>会展经济与管理专业二班</class>
+                    </classes>
+                </major>
+            </majors>
+        </school>
+
+        <school name="计算机科学与教育软件学院">
+            <majors>
+                <major name="计算机科学与技术">
+                    <classes>
+                        <class>计科一班</class>
+                        <class>计科二班</class>
+                        <class>计科137</class>
+                        <class>计科138</class>
+                    </classes>
+                </major>
+                <major name="网络工程">
+                    <classes>
+                        <class>网工3班</class>
+                        <class>网工4班</class>
+                    </classes>
+                </major>
+                <major name="软件工程">
+                    <classes>
+                        <class>软工5班</class>
+                        <class>软工6班</class>
+                    </classes>
+                </major>
+            </majors>
+        </school>
+    </campus>
+</structure>
